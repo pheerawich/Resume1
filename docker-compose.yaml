@@ -1,0 +1,7 @@
+version: '3'
+services:
+  myapp:
+    image: pheerawich09/resume1/node-express
+    ports:
+      - "8026:8000"
+    command: "npm start"
